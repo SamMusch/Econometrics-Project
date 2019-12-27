@@ -1,0 +1,78 @@
+---
+title: "The reduction in weekly working hours in Europe" 
+subtitle: "Looking at the development between 1996 and 2006"
+author: "Insert your name here"
+output: 
+  html_document:
+    theme: united
+    highlight: monochrome
+    toc: true
+    toc_float: false
+    toc_depth: 4
+    code_folding: shows
+    number_sections: true
+    css: styles.css
+    df_print: knitr:kable()
+
+---
+
+
+--- Finish setting up style
+
+<style>
+body, h1, h2, h3, h4 {
+    font-family: "Bookman", serif;
+}
+
+body {
+    color: #333333;
+}
+a, a:hover {
+    color: blue;
+}
+pre {
+    font-size: 10px;
+}
+</style>
+
+--- Code chucks
+
+
+```{r echo = FALSE, message = F, warning = F}
+# Run the code, but dont show result
+library()
+
+```
+
+
+include = F   run code, hide code, hide output
+echo = F      run code, hide code, show output
+message = F   hides messages 
+warning = F   hides warnings
+fig.cap = '...'
+
+
+--- Image settings
+
+
+```{r fig.height = 6, fig.width=6, fig.align='center'}
+
+
+```
+
+
+--- Links
+
+![](http://example.com/logo.png)
+
+![optional caption text](figures/img.png)
+
+[data sets](http://www.ilo.org/g.htm)
+
+&nbsp;
+
+
+
+
+
+
