@@ -45,9 +45,9 @@ vif(model2)
 plot(iv, dv, pch = 16, xlab = "iv", ylab = "dv") 
 abline(lm(dv ~ iv), lty=2, col='red')
 
-# Multi Model -------------------------------------------------------------------
+# Multi Model, no transformation -------------------------------------------------------------------
 
-multimodel <- lm(price ~ bedrooms+ bathrooms+sqft_living+ sqft_lot+floors+waterfront+condition+age,data=housedata)
+multimodel <- lm(price ~ bedrooms + bathrooms + sqft_living, data=housedata)
 summary(multimodel)
 
 
