@@ -16,6 +16,19 @@ summary(flights)
 describe(flights)
 
 
+# Fill with 0
+
+library(tidyverse)
+library(tidyr)
+data <- read_csv('new.csv')
+data <- data %>% select(-X1)
+with_zero <- data %>% 
+  fill(precinct, description) %>%
+  complete(precinct, description, reportedDate)
+
+with_zero  <- with_zero %>% mutate(count_of_crimes = ifelse(is.na(x), 0, x)
+                                   write.csv(with_zero, 'new_data.csv')
+
 
 # Missing -----------------------------------------------------------------
 
