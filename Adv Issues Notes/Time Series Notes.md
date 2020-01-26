@@ -1,6 +1,6 @@
 # Time Series
 
-[Course Slides](https://github.com/SamMusch/Private-Repo/tree/master/Advanced/Time Series)
+[Course Slides](https://github.com/SamMusch/Private-Repo/tree/master/Advanced/Time-Series)
 
 [Full Springer Text](https://mybiostats.files.wordpress.com/2015/03/time-series-analysis-with-applications-in-r-cryer-and-chan.pdf)
 
