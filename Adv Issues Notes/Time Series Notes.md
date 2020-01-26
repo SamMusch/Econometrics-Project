@@ -1,18 +1,22 @@
-# Time Series
+[toc]
 
 [Course Slides](https://github.com/SamMusch/Private-Repo/tree/master/Advanced/Time-Series)
 
 [Full Springer Text](https://mybiostats.files.wordpress.com/2015/03/time-series-analysis-with-applications-in-r-cryer-and-chan.pdf)
 
-[Old Econometrics Code](https://github.com/SamMusch/R/blob/master/Statistics/Time Series.R)
+[Old Econometrics Code](https://github.com/SamMusch/R/blob/master/Statistics/Time-Series.R)
+
+[Canvas](https://canvas.umn.edu/courses/161920/modules)
 
 
+
+# Time Series
 
 Forecasting is a time-dependent subset of prediction where consecutive observations are **not** independent. We have autocorrelation when there correlation between time points, white noise if there is not.
 
 
 
-## Stochastic process
+## Week 1 - Stochastic process
 
 Stochastic process - Sequence of random variables	
 
