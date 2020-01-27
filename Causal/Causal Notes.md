@@ -8,6 +8,8 @@
 
 [Private Github](https://github.com/SamMusch/Private-Repo/tree/master/Causal)
 
+[Canvas](https://canvas.umn.edu/courses/161887/wiki)
+
 
 
 ## Causal Overview
@@ -46,6 +48,7 @@ Models relationship between DV and linear combo of IV + error
 
 - Confidence interval = range that includes the true mean with __% probability
 - R^2 = % of change in DV accounted for by our IV
+  - Correct model spec is not necessarily the one with highest R^2, its the one which most closely reflects the relationship among the variables
 
 OLS properties
 
@@ -64,4 +67,59 @@ OLS assumptions
 | Log IV (level log) | %           | unit        |
 | Log DV (log level) | unit        | %           |
 | Log Both           | %           | %           |
+
+
+
+
+
+## Week 2 - Correlation and Causation
+
+[Mochen Yang Notes](https://github.com/SamMusch/Private-Repo/blob/master/Causal/Wk2 - Correlation/L2 Technical Notes.pdf)
+
+### Threats to causal inference
+
+1. Sample selection bias - sample doesn't represent the population we care about, can't generalize
+2. Endogeneity - the error is related to one of our variables
+   1. Omitted variable bias - we haven't accounted for everything
+   2. Simultaneity bias - X and Y cause each other, there's something else "behind" them
+   3. Measurement error - could be random or systematic - if random error is related to one of the variables, it doesn't just "go away". Our model will not actually reflect reality.
+
+
+
+### Requirements for Causality
+
+1. Correlation - the "prereq" for causal inference, but is not enough on its own
+2. Temporal precendence - X has to lead to Y
+3. Free from the threats above
+
+
+
+### Randomized Experiments
+
+Objective is to get rid of any kind of confounding explanations for why Y is changing. We are looking to control for all variables to isolate the impact of 1 variable in our response. 
+
+Should be used when we have comparable subjects, we can randomize among them, and we have an outcome of interest that we can measure reliably. We can check how good our randomization was by comparing the *other* features between the groups and seeing if there are statistical differences.
+
+- Simple
+- Block - sort into groups, and then randomize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
